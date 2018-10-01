@@ -120,7 +120,7 @@ cometButton.mousePressed(shootingStar);
 }
 
 function shootingStar(){
-	comet = false;
+	
 	comet = true;
 }
 
