@@ -1,5 +1,4 @@
-var person{
-
+{
 	"name":"Jon",
 	"age": 20,
 	"weight": 200,
