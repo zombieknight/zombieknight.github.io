@@ -65,7 +65,7 @@ if(weatherData){
 		fill(mappedFillTemp,30,150);
 		windSpeed = weatherData.wind.speed;
 
-		if(windSpeed < 5){
+		if(windSpeed < 10){
 			var windfeelings = " hates ";
 		}
 		else{
