@@ -18,9 +18,39 @@ class Particle {
     noStroke();
     
     color c = webcam.get(int(x),int(y));
-    if(mouseX == 0){
-      mouseX = 1;}
-    fill(c*mouseY/mouseX,25);
+    if(key == 'c'){
+    fill(c*2,25);
+    }
+    else if(key == 'z'){
+    fill(c*4,25);
+    }
+    else if(key == 'x'){
+    fill(c*6,25);
+    }
+    else if(key == 'v'){
+    fill(c*3,25);
+    }
+    else if(key == 'b'){
+    fill(c*5,25);
+    }
+    else if(key == 'n'){
+    fill(c/2,25);
+    }
+    else if(key == 'm'){
+    fill(c/4,25);
+    }
+    else if(key == 'a'){
+    fill(c/6,25);
+    }
+    else if(key == 's'){
+    fill(c/3,25);
+    }
+    else if(key == 'd'){
+    fill(c/5,25);
+    }
+    else if(key == ' '){
+    fill(c,25);
+    }
     ellipse(x, y, 12, 12);
     
   }
